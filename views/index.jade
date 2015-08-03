@@ -1,0 +1,27 @@
+html
+	head
+		title #{title}
+		link(rel='stylesheet', href='/css/style.css')
+	body 
+		.body
+			| &#x9;&#x9;
+		.grad
+		.header
+			div
+				| Site
+				span Random
+			| &#x9;&#x9;
+			br
+			| &#x9;&#x9;
+			.login
+				input(type='text', placeholder='username', name='user')
+				br
+				| &#x9;&#x9;&#x9;&#x9;
+				input(type='password', placeholder='password', name='password')
+				br
+				| &#x9;&#x9;&#x9;&#x9;
+				input(type='button', value='Login')
+
+		
+		script(src='//code.jquery.com/jquery-1.11.3.min.js')
+		script(src='/js/index.js')
